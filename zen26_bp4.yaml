@@ -135,7 +135,7 @@ action:
               - conditions: "{{ attribute_id == 'KeyHeldDown' }}"
                 sequence: !input dimmer_up_hold
               - conditions: "{{ attribute_id == 'KeyReleased' }}"
-                sequence: !input dimmer_up_release
+                sequence: !input dimmer_up_hold
       - conditions: "{{ scene_id == 'Scene 001' }}"
         sequence: 
           - choose:
@@ -152,4 +152,4 @@ action:
               - conditions: "{{ attribute_id == 'KeyHeldDown' }}"
                 sequence: !input dimmer_down_hold
               - conditions: "{{ attribute_id == 'KeyReleased' }}"
-                sequence: !input dimmer_down_release
+                sequence: !input dimmer_down_hold
