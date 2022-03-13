@@ -51,12 +51,6 @@ blueprint:
       default: []
       selector:
         action: {}
-    dimmer_up_release:
-      name: Top Paddle Release
-      description: Action to run on dimmer upper paddle release.
-      default: []
-      selector:
-        action: {}
 
     dimmer_down_1x:
       name: Lower Paddle 1x
@@ -94,12 +88,6 @@ blueprint:
       name: Bottom Paddle Hold
       description: "Action to run on dimmer lower paddle press-and-hold.
       Default: Decrease dimmer brightness level."
-      default: []
-      selector:
-        action: {}
-    dimmer_down_release:
-      name: Bottom Paddle Release
-      description: Action to run on dimmer lower paddle double tap.
       default: []
       selector:
         action: {}
