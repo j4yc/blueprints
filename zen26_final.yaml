@@ -4,7 +4,7 @@ blueprint:
     Zwave JS integration.
   domain: automation
   input:
-    zooz_zen27:
+    zooz_zen26:
       name: Zooz ZEN26
       description: The ZEN26 Switch to interact with.
       selector:
